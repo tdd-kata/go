@@ -1,4 +1,4 @@
-package yours
+package testify
 
 import (
 	"fmt"
