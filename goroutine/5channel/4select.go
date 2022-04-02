@@ -8,21 +8,24 @@ import (
 
 var wg sync.WaitGroup
 
-// Output:
-// Square: 0
-// Square: 4
-// Square: 16
-// Square: 36
-// tick
-// Square: 64
-// Square: 100
-// Square: 144
-// Square: 196
-// tick
-// Square: 256
-// Square: 324
-// terminate
-// main goroutine end
+//Output:
+//Square: 0
+//tick
+//Square: 4
+//Square: 16
+//Square: 36
+//tick
+//Square: 64
+//tick
+//Square: 100
+//Square: 144
+//Square: 196
+//tick
+//Square: 256
+//Square: 324
+//tick
+//terminate
+//main goroutine end
 func main() {
 	ch := make(chan int, 2)
 
