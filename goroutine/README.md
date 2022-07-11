@@ -67,3 +67,4 @@ Lock을 사용해서 메모리 자원을 하나의 Goroutine에서만 접근하�
   - [tuckersGo/musthaveGo](https://github.com/tuckersGo/musthaveGo)
 - [How Does the Goroutine Stack Size Evolve?](https://medium.com/a-journey-with-go/go-how-does-the-goroutine-stack-size-evolve-447fc02085e5)
 - [고루틴(goroutine) Deep Dive](https://mainfunction.tistory.com/entry/GoGolang-%EA%B3%A0%EB%A3%A8%ED%8B%B4goroutine-Deep-Dive)
+
