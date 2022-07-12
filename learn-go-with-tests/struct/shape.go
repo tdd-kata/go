@@ -18,8 +18,9 @@ func (r Rectangle) Area() float64 {
 	return r.Width * r.Height
 }
 
-// Perimeter returns the perimeter of a rectangle.
-func Perimeter(rectangle Rectangle) float64 {
+// perimeter returns the perimeter of a rectangle.
+func perimeter(rectangle Rectangle) float64 {
+	// symbol이 소문자로 시작한다면 정의된 패키지 밖에서는 private
 	return 2 * (rectangle.Width + rectangle.Height)
 }
 
